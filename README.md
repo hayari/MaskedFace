@@ -48,3 +48,6 @@ to use streaming from the webcam
 $ python streamv2.py
 ```
 
+
+
+![](project.gif)
