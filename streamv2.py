@@ -6,7 +6,6 @@ from mtcnn import MTCNN
 
 cap = cv2.VideoCapture(0)
 
-
 #load the model
 model=load_model('my_model_128.h5',custom_objects=None,compile=True)
 
@@ -22,7 +21,7 @@ while(True):
 
     # Our operations on the frame come here
     img = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    #gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
     
     #draw_facebox

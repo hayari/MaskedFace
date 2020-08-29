@@ -9,8 +9,8 @@ import os
 #image_width = 128
 #image_height = 128
 
-image_width = 64
-image_height = 64
+image_width = 128
+image_height = 128
 
 channels = 3
 nb_classes = 1
